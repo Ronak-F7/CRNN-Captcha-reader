@@ -167,6 +167,7 @@ Inference on test images and submission generation.
 
 ## Repository Structure
 
+```text
 CRNN-Captcha-reader/
 │
 ├── 01_dataset_exploration.ipynb
@@ -186,6 +187,7 @@ CRNN-Captcha-reader/
 ├── train-labels.csv
 ├── submission.csv
 └── README.md
+```
 
 ## Technologies Used
 
