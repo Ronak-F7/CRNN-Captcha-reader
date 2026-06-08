@@ -214,5 +214,5 @@ CRNN-Captcha-reader/
 
 ## Author
 
-**Ronak Das** 
+**Ronak Das**  
 *B.Tech Mechanical Engineering* Indian Institute of Technology Roorkee
