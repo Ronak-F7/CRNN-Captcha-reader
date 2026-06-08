@@ -18,17 +18,7 @@ Predicted CAPTCHA text.
 
 ### Approach
 
-Image
-  ↓
-CNN Feature Extraction
-  ↓
-BiLSTM Sequence Modeling
-  ↓
-CTC Decoding
-  ↓
-Predicted Text
-
----
+Image -> CNN Feature Extraction -> BiLSTM Sequence Modeling -> CTC Decoding -> Predicted Text
 
 ## Dataset Analysis
 
@@ -149,6 +139,7 @@ Training setup and experimentation.
 * CTC loss implementation
 * Optimizer configuration
 * Training and validation monitoring
+* Fine Tuning
 
 ---
 
@@ -196,8 +187,6 @@ CRNN-Captcha-reader/
 ├── submission.csv
 └── README.md
 
----
-
 ## Technologies Used
 
 * Python
@@ -223,4 +212,5 @@ CRNN-Captcha-reader/
 
 ## Author
 
-**Ronak Das** *B.Tech Mechanical Engineering* Indian Institute of Technology Roorkee
+**Ronak Das** 
+*B.Tech Mechanical Engineering* Indian Institute of Technology Roorkee
