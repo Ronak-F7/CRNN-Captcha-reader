@@ -19,21 +19,13 @@ Predicted CAPTCHA text.
 ### Approach
 
 Image
-
-↓
-
+  ↓
 CNN Feature Extraction
-
-↓
-
+  ↓
 BiLSTM Sequence Modeling
-
-↓
-
+  ↓
 CTC Decoding
-
-↓
-
+  ↓
 Predicted Text
 
 ---
@@ -56,10 +48,10 @@ This reduced ambiguity between visually similar characters and simplified the ch
 
 Evaluation was performed on a held-out validation split (10%).
 
-| Metric                     | Value  |
-| -------------------------- | ------ |
-| Exact Match Accuracy       | 88.25% |
-| Character Accuracy         | 97.96% |
+| Metric | Value |
+| :--- | :--- |
+| Exact Match Accuracy | 88.25% |
+| Character Accuracy | 97.96% |
 | Character Error Rate (CER) | 0.0204 |
 
 The model correctly predicts the entire CAPTCHA string in approximately 88% of cases while maintaining a very low character-level error rate.
@@ -69,22 +61,18 @@ The model correctly predicts the entire CAPTCHA string in approximately 88% of c
 ## Sample Prediction
 
 ![Prediction Example](images/prediction_example.png)
-```
 
-Example:
+### Example:
 
-```text
 Image      → CAPTCHA
 Prediction → QVTQ8A
 Actual     → QVTQ8A
-```
 
 ---
 
 ## Network Architecture
 
 ![Model Architecture](images/model_architecture.png)
-```
 
 ### Architecture Summary
 
@@ -188,7 +176,6 @@ Inference on test images and submission generation.
 
 ## Repository Structure
 
-```text
 CRNN-Captcha-reader/
 │
 ├── 01_dataset_exploration.ipynb
@@ -208,7 +195,6 @@ CRNN-Captcha-reader/
 ├── train-labels.csv
 ├── submission.csv
 └── README.md
-```
 
 ---
 
@@ -237,8 +223,4 @@ CRNN-Captcha-reader/
 
 ## Author
 
-**Ronak Das**
-
-B.Tech Mechanical Engineering
-
-Indian Institute of Technology Roorkee
+**Ronak Das** *B.Tech Mechanical Engineering* Indian Institute of Technology Roorkee
