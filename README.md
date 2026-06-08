@@ -68,9 +68,6 @@ The model correctly predicts the entire CAPTCHA string in approximately 88% of c
 
 ## Sample Prediction
 
-**Insert prediction screenshot here**
-
-```markdown
 ![Prediction Example](images/prediction_example.png)
 ```
 
@@ -86,9 +83,6 @@ Actual     → QVTQ8A
 
 ## Network Architecture
 
-**Insert architecture image here**
-
-```markdown
 ![Model Architecture](images/model_architecture.png)
 ```
 
